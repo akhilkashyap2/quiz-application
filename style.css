@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #f77028;
+    background: #5c7898;
 }
 
 .app {
@@ -22,7 +22,7 @@ body{
     font-size: 25px;
     font-weight: 600;
     text-align: -webkit-center;
-    color: #9f07f7;
+    color: #080543;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
 }
