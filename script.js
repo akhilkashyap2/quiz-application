@@ -199,34 +199,6 @@ function startQuiz(){
     nextButton.style.display = "none"; // Hide the "Next" button initially
 }
 
-
-// function showQuestion() {
-//     resetState();
-//     const startIndex = currentQuestionIndex * questionsPerPage;
-//     const endIndex = startIndex + questionsPerPage;
-//     const currentQuestions = questions.slice(startIndex, endIndex);
-
-//     currentQuestions.forEach((question, index) => {
-//         let questionNo = startIndex + index + 1;
-//         let questionText = questionNo + ". " + question.question;
-
-//         const questionElement = document.createElement("h2");
-//         questionElement.innerText = questionText;
-//         answerButtons.appendChild(questionElement);
-
-//         question.answers.forEach(answer => {
-//             const button = document.createElement("button");
-//             button.innerHTML = answer.text;
-//             button.classList.add("btn");
-//             answerButtons.appendChild(button);
-//             if (answer.correct) {
-//                 button.dataset.correct = answer.correct;
-//             }
-//             button.addEventListener("click", selectAnswer);
-//         });
-//     });
-// }
-
 function showQuestion() {
     resetState();
     const startIndex = currentQuestionIndex * questionsPerPage;
