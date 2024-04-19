@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Which country is famous for the Eiffel Tower?",
+        question: "Q1. Which country is famous for the Eiffel Tower?",
         answers: [
             {text: "a) Italy", correct: false},
             {text: "b) France", correct: true},
@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is known for its kangaroos and koalas?",
+        question: "Q2. Which country is known for its kangaroos and koalas?",
         answers: [
             {text: "a) Brazil", correct: false},
             {text: "b) Australia", correct: true},
@@ -18,7 +18,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is home to the Great Wall?",
+        question: "Q3. Which country is home to the Great Wall?",
         answers: [
             {text: "a) Japan", correct: false},
             {text: "b) China", correct: true},
@@ -27,7 +27,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is known for its ancient city of Angkor Wat?",
+        question: "Q4. Which country is known for its ancient city of Angkor Wat?",
         answers: [
             {text: "a) Laos", correct: false},
             {text: "b) Vietnam", correct: false},
@@ -36,7 +36,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is famous for its pyramids and Sphinx?",
+        question: "Q5. Which country is famous for its pyramids and Sphinx?",
         answers: [
             {text: "a) Sweden", correct: false},
             {text: "b) Canada", correct: true},
@@ -45,7 +45,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is located in the southern hemisphere and is known for its Maori culture?",
+        question: "Q6. Which country is located in the southern hemisphere and is known for its Maori culture?",
         answers: [
             {text: "a) Fiji", correct: false},
             {text: "b) New Zealand", correct: true},
@@ -54,7 +54,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is famous for its tango dance?",
+        question: "Q7. Which country is famous for its tango dance?",
         answers: [
             {text: "a) Brazil", correct: false},
             {text: "b) Argentina", correct: true},
@@ -63,7 +63,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is famous for its stunning fjords, Viking history, and Northern Lights?",
+        question: "Q8. Which country is famous for its stunning fjords, Viking history, and Northern Lights?",
         answers: [
             {text: "a) Norway", correct: true},
             {text: "b) Denmark", correct: false},
@@ -72,7 +72,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is located in the heart of Europe and is famous for its cheese and chocolates?",
+        question: "Q9. Which country is located in the heart of Europe and is famous for its cheese and chocolates?",
         answers: [
             {text: "a) Belgium", correct: false},
             {text: "b) Switzerland", correct: true},
@@ -81,7 +81,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is famous for its ancient city of Petra?",
+        question: "Q10. Which country is famous for its ancient city of Petra?",
         answers: [
             {text: "a) Jordan", correct: true},
             {text: "b) Iraq", correct: false},
@@ -90,7 +90,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is known for its beautiful beaches and samba music?",
+        question: "Q11. Which country is known for its beautiful beaches and samba music?",
         answers: [
             {text: "a) Argentina", correct: false},
             {text: "b) Brazil", correct: true},
@@ -99,7 +99,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is famous for its pyramids and pharaohs?",
+        question: "Q12. Which country is famous for its pyramids and pharaohs?",
         answers: [
             {text: "a) Sudan", correct: false},
             {text: "b) Egypt", correct: true},
@@ -108,7 +108,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is home to the iconic Big Ben clock tower?",
+        question: "Q13. Which country is home to the iconic Big Ben clock tower?",
         answers: [
             {text: "a) France", correct: false},
             {text: "b) United Kingdom", correct: true},
@@ -117,7 +117,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is known for its fjords, Vikings, and the Aurora Borealis?",
+        question: "Q14. Which country is known for its fjords, Vikings, and the Aurora Borealis?",
         answers: [
             {text: "a) Denmark", correct: false},
             {text: "b) Sweden", correct: false},
@@ -126,7 +126,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is famous for its delicious sushi and cherry blossoms?",
+        question: "Q15. Which country is famous for its delicious sushi and cherry blossoms?",
         answers: [
             {text: "a) China", correct: false},
             {text: "b) South Korea", correct: false},
@@ -135,7 +135,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is located on the southern tip of Africa and is known for its diverse wildlife?",
+        question: "Q16. Which country is located on the southern tip of Africa and is known for its diverse wildlife?",
         answers: [
             {text: "a) Tanzania", correct: false},
             {text: "b) Kenya", correct: false},
@@ -144,7 +144,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is famous for its ancient ruins of Machu Picchu?",
+        question: "Q17. Which country is famous for its ancient ruins of Machu Picchu?",
         answers: [
             {text: "a) Peru", correct: true},
             {text: "b) Colombia", correct: false},
@@ -153,7 +153,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is known for its stunning beaches, tango music, and Patagonia region?",
+        question: "Q18. Which country is known for its stunning beaches, tango music, and Patagonia region?",
         answers: [
             {text: "a) Chile", correct: false},
             {text: "b) Brazil", correct: false},
@@ -162,7 +162,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is famous for its delicious pastries like croissants and macarons?",
+        question: "Q19. Which country is famous for its delicious pastries like croissants and macarons?",
         answers: [
             {text: "a) Spain", correct: false},
             {text: "b) Italy", correct: false},
@@ -171,7 +171,7 @@ const questions = [
         ]
     },
     {
-        question: "Which country is known for its rich history, including the Acropolis and Parthenon?",
+        question: "Q20. Which country is known for its rich history, including the Acropolis and Parthenon?",
         answers: [
             {text: "a) Turkey", correct: false},
             {text: "b) Greece", correct: true},
@@ -194,11 +194,10 @@ let answered = false;
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
-    resetState();
+    resetState(); // Reset the state
     showQuestion();
-    nextButton.style.display = "none";
+    nextButton.style.display = "none"; // Hide the "Next" button initially
 }
-
 
 function showQuestion() {
     resetState();
@@ -210,20 +209,15 @@ function showQuestion() {
         let questionNo = startIndex + index + 1;
         let questionText = questionNo + ". " + question.question;
 
-        const questionElement = document.createElement("div");
-        questionElement.classList.add("question-images");
-        
-        const questionTextElement = document.createElement("h2");
-        questionTextElement.innerText = questionText;
-        questionElement.appendChild(questionTextElement);
+        const questionElement = document.createElement("h2");
+        questionElement.innerText = questionText;
+        answerButtons.appendChild(questionElement);
 
         // Create image element for flag
         const flagImage = document.createElement("img");
-        flagImage.alt = "Flag"; 
-        flagImage.classList.add("flag-image");
-        questionElement.appendChild(flagImage);
-
-        answerButtons.appendChild(questionElement);
+        flagImage.src = `flags/flag${startIndex + index + 1}.jpg`; // Adjust the path to your flag images
+        flagImage.alt = "Flag"; // Add alt text for accessibility
+        answerButtons.appendChild(flagImage);
 
         question.answers.forEach(answer => {
             const button = document.createElement("button");
@@ -237,7 +231,6 @@ function showQuestion() {
         });
     });
 }
-
 
 
 function resetState() {
