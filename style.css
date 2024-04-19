@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #5c7898;
+    background: #f77028;
 }
 
 .app {
@@ -22,7 +22,7 @@ body{
     font-size: 25px;
     font-weight: 600;
     text-align: -webkit-center;
-    color: #080543;
+    color: #9f07f7;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
 }
@@ -81,13 +81,20 @@ body{
     background: #ff9393;
 }
 
-.flag-image {
-    width: 100px;
-    height: 100px;
-}
-
 .question-images {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.flag-image {
+    width: 100px;
+    height: 100px;
 }
